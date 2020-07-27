@@ -1,0 +1,16 @@
+.row-wrapper{
+border-bottom: 1px solid;
+height:100px;
+.board-row-column-wrapper {
+    display: flex;
+    border-right: 1px solid;
+
+    &:hover {
+        cursor: pointer;
+    }
+    .board-row-column{
+        margin:auto;
+        font-size: 50px;
+    }
+}
+}

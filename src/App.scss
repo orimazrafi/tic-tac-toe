@@ -1,3 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+.main-board-wrapper {
+  border: 1px solid;
+  margin-top: 7rem;
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
